@@ -5,6 +5,22 @@
   text-align: center;
 }
 
+/* src/App.css */
+.App.flash {
+  animation: flashAnimation 300ms;
+}
+
+@keyframes flashAnimation {
+  0% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: #ff00ff; /* Crazy-looking color */
+  }
+  100% {
+    background-color: transparent;
+  }
+}
 .logo {
   height: 6em;
   padding: 1.5em;
